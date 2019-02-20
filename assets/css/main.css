@@ -3823,6 +3823,18 @@ html {
 					box-shadow: inset 0 -1px 0 0 var(--accent-light), 0 1px 0 0 var(--accent-light);
 				}
 
+				.wrapper.spotlight.style2 div.side-by-side-list {
+					display: flex;
+				}
+
+				.wrapper.spotlight.style2 div.side-by-side-list ul {
+					margin-left: 2em;
+				}
+
+				.wrapper.spotlight.style2 div.side-by-side-list ul:first-child {
+					margin-left: 0;
+				}
+
 			.wrapper.spotlight.style3 {
 				background-color: var(--dark-color);
 			}
