@@ -3821,7 +3821,7 @@ html {
 				}
 
 				.wrapper.spotlight.style1 a:hover {
-					color: color: var(--dark-color);
+					color: var(--dark-color);
 				}
 
 				.wrapper.spotlight.style1 a.special::before {
