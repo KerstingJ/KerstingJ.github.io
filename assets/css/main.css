@@ -2981,7 +2981,9 @@ html {
 
 		.features article {
 			padding: 1.75em 1.75em 0.1em 1.75em ;
-			background-color: #353849;
+			background-color: var(--light-color);
+			color: var(--accent-dark);
+			font-weight: 500;
 			border-radius: 5px;
 			margin: 1.5em 3em 1.5em 0;
 			width: calc(50% - 1.5em);
@@ -2989,6 +2991,19 @@ html {
 
 			.features article:nth-child(2n) {
 				margin-right: 0;
+			}
+
+			.features article h3 {
+				color: var(--accent-dark);
+				border-bottom: 1px solid var(--accent-dark);
+			}
+
+			.features article a {
+				color: var(--accent-dark);
+			}
+
+			.features article a.special::before {
+				border: 1px solid var(--accent-dark);
 			}
 
 			.features article .image {
@@ -3052,7 +3067,7 @@ html {
 		-webkit-transition: background-color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out;
-		background-color: rgba(53, 56, 73, 0.95);
+		background-color: var(--dark-color);
 		height: 3.5em;
 		left: 0;
 		line-height: 3.5em;
@@ -3583,22 +3598,22 @@ html {
 	}
 
 	.wrapper {
-		background-color: #2e3141;
+		background-color: var(--accent-dark);
 		margin: 6.5em 0;
 		position: relative;
 	}
 		
 		/* WTF */
 		.wrapper:before, .wrapper:after {
-			background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%232e3141%3B' /%3E%3C/svg%3E");
+			background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%233F1C23%3B' /%3E%3C/svg%3E");
 		}
 
 		.wrapper:before {
-			box-shadow: inset 0 -1px 0 0 #2e3141, 0 1px 0 0 #2e3141;
+			box-shadow: inset 0 -1px 0 0 var(--accent-dark), 0 1px 0 0 var(--accent-dark);
 		}
 
 		.wrapper:after {
-			box-shadow: inset 0 -1px 0 0 #2e3141, 0 1px 0 0 #2e3141;
+			box-shadow: inset 0 -1px 0 0 var(--accent-dark), 0 1px 0 0 var(--accent-dark)
 		}
 
 		.wrapper:before, .wrapper:after {
