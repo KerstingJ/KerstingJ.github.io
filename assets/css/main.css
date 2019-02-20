@@ -3556,7 +3556,7 @@ html {
 		#wrapper > header {
 			padding: 9em 0 6.25em 0 ;
 			background-color: #2e3141;
-			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8));
 			background-size: auto, cover;
 			background-position: center, 0% 30%;
 			margin-bottom: -6.5em;
@@ -3845,6 +3845,10 @@ html {
 
 				.wrapper.spotlight.style2 div.side-by-side-list ul {
 					margin-left: 2em;
+				}
+
+				.wrapper.spotlight.style2 div.side-by-side-list ul {
+					width: inherit;
 				}
 
 				.wrapper.spotlight.style2 div.side-by-side-list ul:first-child {
