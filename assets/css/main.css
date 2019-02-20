@@ -3436,6 +3436,7 @@ html {
 			letter-spacing: 0.1em;
 			line-height: 2;
 			text-transform: uppercase;
+			font-weight: 600;
 		}
 
 		@media screen and (max-width: 980px) {
